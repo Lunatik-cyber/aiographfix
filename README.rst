@@ -3,14 +3,14 @@ AIOGraph
 
 |shield-pypi| |shield-pypi-status| |shield-travis| |shield-codecov| |shield-license|
 
-**aiograph** - asynchronous Python Telegra.ph API wrapper.
+**aiographfix** - asynchronous Python Telegra.ph API wrapper, that fix aiograph
 
 Annotations
 -----------
-The Telegraph class (``aiograph.Telegraph``) encapsulates all API calls in a single class.
+The Telegraph class (``aiographfix.Telegraph``) encapsulates all API calls in a single class.
 It provides functions such as create_page, get_views and other's methods described at `Telegra.ph/api <http://telegra.ph/api>`_ page
 
-All data types  stored In the package ``aiograph.types``.
+All data types  stored In the package ``aiographfix.types``.
 
 All methods are named following the `PEP-8 <https://www.python.org/dev/peps/pep-0008/>`_ instructions
 for example ``create_account`` for ``createAccount`` method and etc.
@@ -29,13 +29,13 @@ Using PIP
 ~~~~~~~~~
 .. code-block:: bash
 
-    $ pip install -U aiograph
+    $ pip install -U aiographfix
 
 From sources
 ~~~~~~~~~~~~
 .. code-block:: bash
 
-    $ git clone https://github.com/aiogram/aiograph.git
+    $ git clone https://github.com/Yyonging/aiograph.git
     $ cd aiograph
     $ python setup.py install
 
@@ -43,13 +43,11 @@ From sources
 Usage examples
 --------------
 
-`Basics <https://github.com/aiogram/aiograph/blob/master/examples/basics.py>`_
-
 .. code-block:: python3
 
    import asyncio
 
-   from aiograph import Telegraph
+   from aiographfix import Telegraph
 
    loop = asyncio.get_event_loop()
    telegraph = Telegraph()
@@ -76,16 +74,16 @@ Links
 - News: `@aiogram_live <https://t.me/aiogram_live>`_
 - Community: `@aiogram <https://t.me/aiogram>`_
 - Russian community: `@aiogram_ru <https://t.me/aiogram_ru>`_
-- Pip: `aiograph <https://pypi.org/project/aiograph>`_
-- Source: `Github repo <https://github.com/aiogram/aiograph>`_
-- Issues/Bug tracker: `Github issues tracker <https://github.com/aiogram/aiograph/issues>`_
+- Pip: `aiographfix <https://pypi.org/project/aiographfix>`_
+- Source: `Github repo <https://github.com/Yyonging/aiograph>`_
+- Issues/Bug tracker: `Github issues tracker <https://github.com/Yyonging/aiograph/issues>`_
 
 .. |shield-pypi| image:: https://img.shields.io/pypi/v/aiograph.svg?style=flat-square
-   :target: https://pypi.org/project/aiograph/
+   :target: https://pypi.org/project/aiographfix/
    :alt: PyPI
 
 .. |shield-pypi-status| image:: https://img.shields.io/pypi/status/aiograph.svg?style=flat-square
-   :target: https://pypi.org/project/aiograph/
+   :target: https://pypi.org/project/aiographfix/
    :alt: PyPi status
 
 .. |shield-travis| image:: https://img.shields.io/travis/aiogram/aiograph.svg?branch=master&style=flat-square

@@ -28,7 +28,7 @@ def get_version():
 
     :return: str
     """
-    txt = (WORK_DIR / 'aiograph' / '__init__.py').read_text('utf-8')
+    txt = (WORK_DIR / 'aiographfix' / '__init__.py').read_text('utf-8')
     try:
         return re.findall(r"^__version__ = '([^']+)'\r?$", txt, re.M)[0]
     except IndexError:
@@ -95,7 +95,7 @@ class UploadCommand(Command):
             return
 
         targets = []
-        for file in glob(str(self.path / f"aiograph-{self.lib_version}[-.]*")):
+        for file in glob(str(self.path / f"aiographfix-{self.lib_version}[-.]*")):
             targets.append(str((self.path / file).absolute()))
         return targets
 
@@ -121,18 +121,18 @@ class UploadCommand(Command):
 
 
 setup(
-    name='aiograph',
+    name='aiographfix',
     version=get_version(),
     packages=find_packages(exclude=('tests', 'tests.*', 'examples.*', 'docs',)),
-    url='https://github.com/aiogram/aiograph',
+    url='https://github.com/Yyonging/aiograph.git',
     license='MIT',
     requires_python='>=3.7',
     author='Alex Root Junior',
     author_email='aiogram@illemius.xyz',
     maintainer=', '.join((
-        'Alex Root Junior <jroot.junior@gmail.com>',
+        'Alex Root Junior <jroot.junior@gmail.com>', 'Yyonging <sysuduanyongqiang@163.com>'
     )),
-    maintainer_email='aiogram@illemius.xyz',
+    maintainer_email='sysuduanyongqiang@163.com',
     description='asynchronous Python Telegra.ph API wrapper',
     long_description=get_description(),
     classifiers=[
