@@ -1,4 +1,4 @@
-AIOGraph
+aioraphfix
 ========
 
 |shield-pypi| |shield-pypi-status| |shield-travis| |shield-codecov| |shield-license|
