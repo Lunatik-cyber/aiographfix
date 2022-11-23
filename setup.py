@@ -131,10 +131,10 @@ setup(
     url='https://github.com/Lunatik-cyber/aiographfixed',
     license='MIT',
     requires_python='>=3.7',
-    author='',
-    author_email='',
+    author='123',
+    author_email='123456',
     maintainer=', '.join((
-        '', ''
+        '123', '123'
     )),
     maintainer_email='',
     description='asynchronous Python Telegra.ph API wrapper',
