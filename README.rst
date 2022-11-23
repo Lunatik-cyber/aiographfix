@@ -74,9 +74,9 @@ Links
 - News: `@aiogram_live <https://t.me/aiogram_live>`_
 - Community: `@aiogram <https://t.me/aiogram>`_
 - Russian community: `@aiogram_ru <https://t.me/aiogram_ru>`_
-- Pip: `aiographfix <https://pypi.org/project/aiographfix>`_
-- Source: `Github repo <https://github.com/Yyonging/aiograph>`_
-- Issues/Bug tracker: `Github issues tracker <https://github.com/Yyonging/aiograph/issues>`_
+- Pip: `aiographfix <https://pypi.org/project/aiographfixed>`_
+- Source: `Github repo <https://github.com/Lunatik-cyber/aiographfixed>`_
+- Issues/Bug tracker: `Github issues tracker <https://github.com/Lunatik-cyber/aiographfixedissues>`_
 
 .. |shield-pypi| image:: https://img.shields.io/pypi/v/aiograph.svg?style=flat-square
    :target: https://pypi.org/project/aiographfix/
