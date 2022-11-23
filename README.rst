@@ -29,13 +29,13 @@ Using PIP
 ~~~~~~~~~
 .. code-block:: bash
 
-    $ pip install -U aiographfix
+    $ pip install -U aiographfixed
 
 From sources
 ~~~~~~~~~~~~
 .. code-block:: bash
 
-    $ git clone https://github.com/Yyonging/aiograph.git
+    $ git clone https://github.com/Lunatik-cyber/aiographfix.git
     $ cd aiograph
     $ python setup.py install
 

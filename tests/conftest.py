@@ -5,7 +5,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from aiograph import Telegraph
+from aiographfixed import Telegraph
 
 access_token = None
 

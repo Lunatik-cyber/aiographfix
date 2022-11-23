@@ -28,7 +28,7 @@ def get_version():
 
     :return: str
     """
-    txt = (WORK_DIR / 'aiographfix' / '__init__.py').read_text('utf-8')
+    txt = (WORK_DIR / 'aiographfixed' / '__init__.py').read_text('utf-8')
     try:
         return re.findall(r"^__version__ = '([^']+)'\r?$", txt, re.M)[0]
     except IndexError:
@@ -99,7 +99,7 @@ class UploadCommand(Command):
             return
 
         targets = []
-        for file in glob(str(self.path / f"aiographfix-{self.lib_version}[-.]*")):
+        for file in glob(str(self.path / f"aiographfixed-{self.lib_version}[-.]*")):
             targets.append(str((self.path / file).absolute()))
         return targets
 
@@ -125,7 +125,7 @@ class UploadCommand(Command):
 
 
 setup(
-    name='aiographfix',
+    name='aiographfixed',
     version=get_version(),
     packages=find_packages(exclude=('tests', 'tests.*', 'examples.*', 'docs',)),
     url='https://github.com/Yyonging/aiograph.git',

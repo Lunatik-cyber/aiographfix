@@ -435,6 +435,7 @@ class Telegraph:
 
         Source: http://telegra.ph/api#createPage
 
+        :param public: (Boolean) If the page should be accessible to non-authorized users.
         :param access_token: (String) Required. Access token of the Telegraph account.
         :param title: (String, 1-256 characters) Required. Page title.
         :param author_name: (String, 0-128 characters) Author name, displayed below the article's title.

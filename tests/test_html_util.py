@@ -1,7 +1,7 @@
 import pytest
 
-from aiograph.types import NodeElement
-from aiograph.utils import html
+from aiographfixed.types import NodeElement
+from aiographfixed.utils import html
 
 HTML = """<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

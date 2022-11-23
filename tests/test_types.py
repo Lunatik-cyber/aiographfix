@@ -5,7 +5,7 @@ Only features and untested functions will be tested here.
 
 import pytest
 
-from aiograph import types
+from aiographfixed import types
 
 
 def test_node():
