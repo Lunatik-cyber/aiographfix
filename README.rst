@@ -55,7 +55,7 @@ Usage examples
 
    async def main():
        await telegraph.create_account('aiograph-demo')
-       page = await telegraph.create_page('Demo', '<p><strong>Hello, world!</strong></p>')
+       page = await telegraph.create_page(title='Demo', content='<p><strong>Hello, world!</strong></p>', public=True)
        print('Created page:', page.url)
 
 
