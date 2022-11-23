@@ -74,24 +74,24 @@ Links
 - News: `@aiogram_live <https://t.me/aiogram_live>`_
 - Community: `@aiogram <https://t.me/aiogram>`_
 - Russian community: `@aiogram_ru <https://t.me/aiogram_ru>`_
-- Pip: `aiographfix <https://pypi.org/project/aiographfixed>`_
+- Pip: `aiographfixed <https://pypi.org/project/aiographfixed>`_
 - Source: `Github repo <https://github.com/Lunatik-cyber/aiographfixed>`_
 - Issues/Bug tracker: `Github issues tracker <https://github.com/Lunatik-cyber/aiographfixed/issues>`_
 
 .. |shield-pypi| image:: https://img.shields.io/pypi/v/aiograph.svg?style=flat-square
-   :target: https://pypi.org/project/aiographfix/
+   :target: https://pypi.org/project/aiographfixed/
    :alt: PyPI
 
 .. |shield-pypi-status| image:: https://img.shields.io/pypi/status/aiograph.svg?style=flat-square
-   :target: https://pypi.org/project/aiographfix/
+   :target: https://pypi.org/project/aiographfixed/
    :alt: PyPi status
 
 .. |shield-travis| image:: https://img.shields.io/travis/aiogram/aiograph.svg?branch=master&style=flat-square
-   :target: https://travis-ci.org/aiogram/aiograph
+   :target: https://travis-ci.org/aiogram/aiographfixed
    :alt: Travis-CI
 
 .. |shield-codecov| image:: https://img.shields.io/codecov/c/github/aiogram/aiograph.svg?style=flat-square
-   :target: https://codecov.io/gh/aiogram/aiograph
+   :target: https://codecov.io/gh/aiogram/aiographfixed
    :alt: Codecov
 
 .. |shield-license| image:: https://img.shields.io/pypi/l/aiogram.svg?style=flat-square
