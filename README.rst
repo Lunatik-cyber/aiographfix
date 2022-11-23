@@ -47,7 +47,7 @@ Usage examples
 
    import asyncio
 
-   from aiographfix import Telegraph
+   from aiographfixed import Telegraph
 
    loop = asyncio.get_event_loop()
    telegraph = Telegraph()
