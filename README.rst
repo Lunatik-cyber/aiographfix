@@ -1,16 +1,16 @@
-aiographfix
+aiographfixed
 ===========
 
 |shield-pypi| |shield-pypi-status| |shield-travis| |shield-codecov| |shield-license|
 
-**aiographfix** - asynchronous Python Telegra.ph API wrapper, that fix aiograph
+**aiographfixed** - asynchronous Python Telegra.ph API wrapper, that fix aiograph
 
 Annotations
 -----------
-The Telegraph class (``aiographfix.Telegraph``) encapsulates all API calls in a single class.
+The Telegraph class (``aiographfixed.Telegraph``) encapsulates all API calls in a single class.
 It provides functions such as create_page, get_views and other's methods described at `Telegra.ph/api <http://telegra.ph/api>`_ page
 
-All data types  stored In the package ``aiographfix.types``.
+All data types  stored In the package ``aiographfixed.types``.
 
 All methods are named following the `PEP-8 <https://www.python.org/dev/peps/pep-0008/>`_ instructions
 for example ``create_account`` for ``createAccount`` method and etc.
