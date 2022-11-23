@@ -36,7 +36,7 @@ From sources
 .. code-block:: bash
 
     $ git clone https://github.com/Lunatik-cyber/aiographfixed.git
-    $ cd aiograph
+    $ cd aiographfixed
     $ python setup.py install
 
 

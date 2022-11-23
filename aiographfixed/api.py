@@ -233,12 +233,8 @@ class Telegraph:
 
     async def request(self, method: str, *, path: Optional[str] = None, payload: Optional[dict] = None):
         url = self.format_api_url(method, path)
-        print(url)
-        print(payload)
         async with self.session.post(url, data=payload, proxy=self.proxy, proxy_auth=self.proxy_auth) as response:
-            print(response)
             json_data = await response.json(loads=self._json_deserialize)
-            print(json_data)
             if not json_data.get('ok') and 'error' in json_data:
                 error_text = json_data['error']
                 raise exceptions.TelegraphError.detect(error_text)

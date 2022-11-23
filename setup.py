@@ -131,12 +131,12 @@ setup(
     url='https://github.com/Lunatik-cyber/aiographfixed',
     license='MIT',
     requires_python='>=3.7',
-    author='Alex Root Junior',
-    author_email='aiogram@illemius.xyz',
+    author='',
+    author_email='\\',
     maintainer=', '.join((
-        'Alex Root Junior <jroot.junior@gmail.com>', 'Yyonging <sysuduanyongqiang@163.com>'
+        '', ''
     )),
-    maintainer_email='sysuduanyongqiang@163.com',
+    maintainer_email='',
     description='asynchronous Python Telegra.ph API wrapper',
     long_description=get_description(),
     classifiers=[
