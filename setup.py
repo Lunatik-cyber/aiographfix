@@ -132,7 +132,7 @@ setup(
     license='MIT',
     requires_python='>=3.7',
     author='',
-    author_email='\\',
+    author_email='',
     maintainer=', '.join((
         '', ''
     )),
