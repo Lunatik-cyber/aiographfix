@@ -128,7 +128,7 @@ setup(
     name='aiographfixed',
     version=get_version(),
     packages=find_packages(exclude=('tests', 'tests.*', 'examples.*', 'docs',)),
-    url='https://github.com/Yyonging/aiograph.git',
+    url='https://github.com/Lunatik-cyber/aiographfixed',
     license='MIT',
     requires_python='>=3.7',
     author='Alex Root Junior',
