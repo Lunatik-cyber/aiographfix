@@ -131,10 +131,10 @@ setup(
     url='https://github.com/Lunatik-cyber/aiographfixed',
     license='MIT',
     requires_python='>=3.7',
-    author='123',
-    author_email='123456',
+    author='AstroFic',
+    author_email='astrofic.guru@gmail.com',
     maintainer=', '.join((
-        '123', '123'
+        'astrofic.guru@gmail.com', 'astrofic.guru@gmail.com'
     )),
     maintainer_email='',
     description='asynchronous Python Telegra.ph API wrapper',
